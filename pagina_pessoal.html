@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            overflow: hidden;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            width: 100%;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+        .profile img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .content {
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h2 {
+            color: #007BFF;
+        }
+        ul, ol {
+            list-style: square;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à minha página pessoal!</h1>
+    </header>
+    
+    <div class="content">
+        <div class="profile">
+            <img src="leonardo.png" alt="Foto">
+            <h2>Lucas Fagundes Vaz</h2>
+        </div>
+
+        <section>
+            <h3>Minhas Habilidades</h3>
+            <ol>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Git</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Meus Hobbies</h3>
+            <ul>
+                <li>Tocar violão</li>
+                <li>Jogar futebol</li>
+                <li>Andar de skate</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Contato</h3>
+            <p>Email: <a href="mailto:lucasfagundesvaz@gmail.com">lucasfagundesvaz@gmail.com</a></p>
+        </section>
+    </div>
+</body>
+</html>
